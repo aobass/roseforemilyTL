@@ -1,3 +1,11 @@
+header {
+    text-align: left;
+    color: grey;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+
 body {
     background: black;
     
