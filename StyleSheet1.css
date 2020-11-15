@@ -13,7 +13,8 @@ body {
 
 .carousel {
     min-height: 300px;
-    max-height: 90%;
+    max-height: 100%;
+    min-height: 50%;
 }
 
 
@@ -22,11 +23,13 @@ body {
     margin: 0 auto;
     width: 80%;
     padding-top: 2rem;
+    
 }
 
 .carousel-item {
     text-align: center;
-    max-height: 600px;
+    max-height: 80%;
+    padding-top: 1em;
 }
 
 .parent {
@@ -37,6 +40,8 @@ body {
     display: block;
     margin: auto;
     padding-top: 3rem;
+    width: 80%;
+    height: auto;
 }
 
 
@@ -46,6 +51,7 @@ body {
     font-weight:600;
 
     max-height: 2em;
+    padding-bottom: 1em;
 }
 
 .carousel-indicators li {
@@ -82,7 +88,7 @@ body {
 }
 
 .carousel-caption {
-    
+    background: rgba(0,0,0,0.0);
 }
 
 
